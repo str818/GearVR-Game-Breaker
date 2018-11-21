@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{816355F9-174D-2810-879A-39A2DA092334}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVROverlay.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRPlatformMenu.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRPostRender.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRTouchpad.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRVolumeControl.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRChromaticAberration.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRDebugGraph.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRDebugUtils.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRGameUtils.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRInputControl.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRMathUtils.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRModeParms.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRMonoscopic.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRResetOrientation.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRTimeWarpUtils.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRWaitCursor.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRDisplay.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRManager.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVROnCompleteListener.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRPluginEvent.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRProfile.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRTracker.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRUnityVersionChecker.cs" />
+     <Compile Include="Assets\OVR\Scripts\OvrCapi.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRCrosshair.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRDebugInfo.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRGUI.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRGamepadController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRGridCube.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRPlayerController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
+     <Compile Include="Assets\Scripts\GameScene\AudioExchange.cs" />
+     <Compile Include="Assets\Scripts\GameScene\BaseListener.cs" />
+     <Compile Include="Assets\Scripts\GameScene\ButtonSound.cs" />
+     <Compile Include="Assets\Scripts\GameScene\CamCollision.cs" />
+     <Compile Include="Assets\Scripts\GameScene\CameraShake.cs" />
+     <Compile Include="Assets\Scripts\GameScene\CheckBug.cs" />
+     <Compile Include="Assets\Scripts\GameScene\CollisionEffect.cs" />
+     <Compile Include="Assets\Scripts\GameScene\DestoryBall.cs" />
+     <Compile Include="Assets\Scripts\GameScene\Disappear.cs" />
+     <Compile Include="Assets\Scripts\GameScene\DoorSwitch.cs" />
+     <Compile Include="Assets\Scripts\GameScene\DoorSwitch2.cs" />
+     <Compile Include="Assets\Scripts\GameScene\FPSSet.cs" />
+     <Compile Include="Assets\Scripts\GameScene\Fire.cs" />
+     <Compile Include="Assets\Scripts\GameScene\FollowNode.cs" />
+     <Compile Include="Assets\Scripts\GameScene\GameOver.cs" />
+     <Compile Include="Assets\Scripts\GameScene\GlassRotate.cs" />
+     <Compile Include="Assets\Scripts\GameScene\IndicatorBoxColor.cs" />
+     <Compile Include="Assets\Scripts\GameScene\InitUI.cs" />
+     <Compile Include="Assets\Scripts\GameScene\Injured.cs" />
+     <Compile Include="Assets\Scripts\GameScene\NineNumbers.cs" />
+     <Compile Include="Assets\Scripts\GameScene\NumberDisappear.cs" />
+     <Compile Include="Assets\Scripts\GameScene\Open.cs" />
+     <Compile Include="Assets\Scripts\GameScene\OpenNow.cs" />
+     <Compile Include="Assets\Scripts\GameScene\PlusDisappear.cs" />
+     <Compile Include="Assets\Scripts\GameScene\RotateCube.cs" />
+     <Compile Include="Assets\Scripts\GameScene\RotateDoorH.cs" />
+     <Compile Include="Assets\Scripts\GameScene\RotateFan.cs" />
+     <Compile Include="Assets\Scripts\GameScene\SXMoving.cs" />
+     <Compile Include="Assets\Scripts\GameScene\ScoreCheck.cs" />
+     <Compile Include="Assets\Scripts\GameScene\ShowFPS.cs" />
+     <Compile Include="Assets\Scripts\GameScene\SmoothFollow.cs" />
+     <Compile Include="Assets\Scripts\GameScene\UIControl.cs" />
+     <Compile Include="Assets\Scripts\GameScene\UIdata.cs" />
+     <Compile Include="Assets\Scripts\GameScene\ZYMoving.cs" />
+     <Compile Include="Assets\Scripts\GameScene\ZhuiDie.cs" />
+     <Compile Include="Assets\Scripts\MenuScene\MenuListener.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Core\Library\Common\Toolss.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Core\Library\Hull\Edge.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Core\Library\Hull\EdgeHit.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Core\Library\Hull\Hull.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Core\Library\Hull\Point.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Core\Library\Hull\Triangle.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Core\Library\Triangulator\ITriangulator.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Core\Library\Triangulator\Triangulator.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Core\Library\UvMapper\UvMapper.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Core\Main\ShatterTool.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Core\Main\TargetUvMapper.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Core\Main\WorldUvMapper.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Examples\Shared Assets\Scripts\SceneGUI.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Examples\Shared Assets\Scripts\Table.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Examples\Shared Assets\Scripts\TableLeg.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Examples\Triangulator\OutlineCreator.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Examples\UvMapping\RotateRigidbody.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Helpers\Game Objects\ShatterOnCollision.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Helpers\Mouse\MouseForce.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Helpers\Mouse\MouseGUI.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Helpers\Mouse\MouseInstantiate.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Helpers\Mouse\MouseShatter.cs" />
+     <Compile Include="Assets\Shatter Toolkit\Helpers\Mouse\MouseSplit.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\P2T.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\DelaunayTriangle.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\AdvancingFront.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\AdvancingFrontNode.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweep.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepBasin.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepConstraint.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepContext.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepDebugContext.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepEdgeEvent.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\DTSweepPointComparator.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\PointOnEdgeException.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\ITriangulatable.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Orientation.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\Contour.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\Polygon.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\PolygonPoint.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\PolygonSet.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Polygon\PolygonUtil.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Sets\ConstrainedPointSet.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Sets\PointSet.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationAlgorithm.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationConstraint.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationContext.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationDebugContext.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationMode.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\TriangulationPoint.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Util\PointGenerator.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Util\PolygonGenerator.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Util\TriangulationUtil.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\FixedArray3.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\FixedBitArray3.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\MathUtil.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\Point2D.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\Point2DList.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Utility\Rect2D.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicArcsAndColumns.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicCollidingSphere.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicCompoundObject.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicExplodingFloor.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicExplodingGoblin.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\LogicGlobalFracturing.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Sample Scene Data\Scripts\UltimateFracturingFPS.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\ConcaveColliderInterface.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\ExplosionSource.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\Fracture.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\FracturedChunk.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\FracturedObject.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\FracturingUtilDieTimer.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\MeshData.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\SpaceTree.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\Split.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\SupportPlane.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Scripts\Triangulate.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\MeshCombiner\Scripts\CombinedMesh.cs" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
+     <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
+     <None Include="Assets\OVR\Shaders\Unlit Transparent HUD.shader" />
+     <None Include="Assets\OVR\Moonlight\Materials\GlobalMenu\OVRCutoutRamp.shader" />
+     <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

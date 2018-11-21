@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f534e83bbb29d44199dfdf2d8c3c5dfa
+labels:
+- shatter
+- toolkit
+- split
+- cut
+- triangulate
+- triangulator
+- cutter
+- splitter
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

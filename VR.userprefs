@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\ScoreCheck.cs">
+    <Files>
+      <File FileName="Assets\Script\MenuScene\MenuListener.cs" Line="50" Column="6" />
+      <File FileName="Assets\OVR\Moonlight\Scripts\OVRTouchpad.cs" Line="18" Column="3" />
+      <File FileName="Assets\Script\BaseListener.cs" Line="16" Column="10" />
+      <File FileName="Assets\Script\ScoreCheck.cs" Line="40" Column="94" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
